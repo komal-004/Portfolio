@@ -22,17 +22,17 @@ export const skills = [
   {
     category: 'Frontend',
     items: [
-      { name: 'React.js', level: 80 },
-      { name: 'TypeScript', level: 70 },
-      { name: 'JavaScript', level: 80 },
+      { name: 'React.js', level: 10 },
+      { name: 'TypeScript', level: 40 },
+      { name: 'JavaScript', level: 60 },
       { name: 'HTML & CSS', level: 85 },
     ],
   },
   {
     category: 'Backend',
     items: [
-      { name: 'Node.js', level: 80 },
-      { name: 'Express.js', level: 80 },
+      { name: 'Node.js', level: 60 },
+    
       { name: 'MongoDB', level: 70 },
       { name: 'PostgreSQL', level: 75 },
     ],
@@ -42,7 +42,7 @@ export const skills = [
     items: [
       { name: 'Git & GitHub', level: 75 },
       { name: 'Docker', level: 60 },
-      { name: 'Solidity', level: 60 },
+      
       { name: 'Swagger / OpenAPI', level: 70 },
     ],
   },
@@ -53,34 +53,40 @@ export const levelLabel = (n) => (n >= 80 ? 'Advanced' : n >= 65 ? 'Intermediate
 // TODO: add your GitHub repo and live demo links for each project.
 export const projects = [
   {
-    name: 'LinkedCRM',
+    name: 'CRM Digital Marketing',
     description:
       'A full-stack CRM platform for managing LinkedIn marketing campaigns and generating leads. I work on the backend and wrote the Swagger/OpenAPI documentation for its API routes.',
-    tech: ['React', 'Node.js', 'Express', 'PostgreSQL'],
+    tech: ['React', 'Node.js', 'PostgreSQL'],
     github: '#',
     live: '#',
   },
   {
-    name: 'AntiGravity',
+    name: 'Smart Public Transport & Ticketing System ',
     description:
-      'An independent full-stack blockchain system with MetaMask authentication, smart contracts, IPFS storage and AI features, containerised with Docker.',
-    tech: ['React', 'TypeScript', 'Express', 'PostgreSQL', 'Solidity', 'IPFS', 'Docker'],
+      'Implemented backend functionality using JavaScript with MySQL integration for secure data storage, while enhancing passenger convenience, transparency and efficiency in public transport services.',
+    tech: ['React', 'PostgreSQL', 'HTML', 'CSS'],
     github: '#',
     live: '#',
   },
   {
-    name: 'MediTrace',
+    name: 'Face Detection',
     description:
-      'A beginner blockchain project built around a Solidity smart contract, compiled and deployed to a local network with Hardhat.',
-    tech: ['Solidity', 'Hardhat'],
+      'Gained hands-on experience in computer vision and image processing by drawing real-time bounding boxes around detected faces.',
+    tech: ['Python'],
     github: '#',
     live: '#',
+  },
+  {
+    name: 'Stock Price Prediction',
+    description:
+      'Developed a Python-based stock price prediction application using Linear Regression on historical data.'
+
   },
 ];
 
 export const timeline = [
   {
-    period: 'Present',
+    period: 'Completed',
     title: 'Backend Developer Intern',
     place: 'Saffron Synaptiq',
     text: 'Practice School-I internship. Backend developer on the LinkedCRM project, working with Node.js, Express and PostgreSQL.',
@@ -90,20 +96,13 @@ export const timeline = [
     period: 'Ongoing',
     title: 'Undergraduate Student',
     place: 'JK Lakshmipat University',
-    text: 'Studying while building full-stack and blockchain projects on the side.',
+    text: 'Studying while building full-stack.',
     type: 'education',
   },
-];
-
-// TODO: replace with your own certificates (title, platform, image or verified link).
-export const certifications = [
-  { title: 'Certificate Title 1', platform: 'Coursera', link: '#', image: '' },
-  { title: 'Certificate Title 2', platform: 'NPTEL', link: '#', image: '' },
-  { title: 'Certificate Title 3', platform: 'LinkedIn Learning', link: '#', image: '' },
 ];
 
 export const achievements = [
   'Backend developer on the LinkedCRM project during my Practice School-I internship at Saffron Synaptiq',
   'Wrote Swagger/OpenAPI documentation covering all LinkedCRM backend routes',
-  'Deployed a Solidity smart contract locally using Hardhat',
+  
 ];
