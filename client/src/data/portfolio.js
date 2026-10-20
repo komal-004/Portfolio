@@ -72,7 +72,7 @@ export const projects = [
     description:
       'Implemented backend functionality using JavaScript with MySQL integration for secure data storage, helping improve passenger convenience, transparency, and efficiency in public transport services.',
     tech: ['JavaScript', 'MySQL', 'React', 'HTML', 'CSS'],
-    github: '#',
+    github: 'https://github.com/komal-004/Smart-Public-Transport-and-Ticketing-System.git',
     live: '#',
   },
   {
