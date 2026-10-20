@@ -102,7 +102,7 @@ export const timeline = [
 ];
 
 export const certifications = [
-  { title: 'Certificate ka naam', platform: 'Coursera', link: '', image: '' },
+  { title: 'Certificate 1', platform: 'Coursera', link: '', image: '' },
 ];
 
 export const achievements = [
