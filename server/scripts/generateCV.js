@@ -13,14 +13,14 @@ const cv = {
   title: 'Backend & Full-Stack Developer',
   email: 'komaljangid0909@gmail.com',
   summary:
-    'Student at JK Lakshmipat University and early-stage developer with hands-on experience across full-stack and blockchain work. Currently completing a Practice School-I internship at Saffron Synaptiq as a backend developer on the LinkedCRM project.',
+    'Student at JK Lakshmipat University and early-stage developer with hands-on experience across full-stack. Currently completed my PS-I internship at Saffron Synaptiq as a backend developer on the LinkedCRM project.',
   experience: [
     {
-      role: 'Backend Developer Intern (Practice School-I)',
-      org: 'Saffron Synaptiq',
+      role: 'Backend Developer Intern (PS-I)',
+      org: 'Saffron Synaptiq Pvt Ltd.',
       points: [
         'Backend developer on LinkedCRM, a CRM platform for LinkedIn marketing campaigns and lead generation.',
-        'Built with React.js, Node.js/Express and PostgreSQL (Neon).',
+        'Built with React.js, Node.js and PostgreSQL.',
         'Generated Swagger/OpenAPI documentation for the backend API routes.',
         'Worked in a shared Git workflow, resolving merge conflicts and environment configuration issues.',
       ],
@@ -29,22 +29,23 @@ const cv = {
   education: [{ degree: 'Undergraduate Student', org: 'JK Lakshmipat University' }],
   projects: [
     {
-      name: 'LinkedCRM',
-      desc: 'Full-stack CRM for LinkedIn marketing campaigns. React.js, Node.js, Express, PostgreSQL.',
+      name: 'Smart Public Transport & Ticketing System ',
+      desc: 'Implemented backend functionality using JavaScript with MySQL integration for secure data storage, while enhancing passenger convenience, transparency and efficiency in public transport services.',
     },
     {
-      name: 'AntiGravity',
-      desc: 'Full-stack blockchain system with React/TypeScript, Express, PostgreSQL + Prisma, Solidity, IPFS, MetaMask auth and Docker.',
+      name: 'Face Detection',
+      desc: 'Gained hands-on experience in computer vision and image processing by drawing real-time bounding boxes around detected faces.',
     },
+    
     {
-      name: 'MediTrace',
-      desc: 'Blockchain project with a Solidity smart contract deployed locally through Hardhat.',
+      name: 'Stock Price Prediction',
+      desc: 'Visualized actual and predicted stock price trends using Matplotlib for trend analysis.',
     },
   ],
   skills: {
-    Frontend: 'React.js, TypeScript, HTML, CSS, JavaScript',
-    Backend: 'Node.js, Express.js, PostgreSQL, Prisma, MongoDB, REST APIs, Swagger',
-    'Tools & Technologies': 'Git, Docker, Solidity, Hardhat, IPFS, VS Code',
+    Frontend: 'React.js, HTML, CSS, JavaScript',
+    Backend: 'Node.js, Express.js, PostgreSQL, MongoDB, REST APIs, Swagger',
+    'Tools & Technologies': 'Git, Docker, VS Code',
   },
 };
 
