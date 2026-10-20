@@ -101,6 +101,10 @@ export const timeline = [
   },
 ];
 
+export const certifications = [
+  { title: 'Certificate ka naam', platform: 'Coursera', link: '', image: '' },
+];
+
 export const achievements = [
   'Backend developer on the LinkedCRM project during my Practice School-I internship at Saffron Synaptiq',
   'Wrote Swagger/OpenAPI documentation covering all LinkedCRM backend routes',
