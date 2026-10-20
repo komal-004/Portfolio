@@ -1,21 +1,27 @@
-// All the text on the site lives here. Edit this file to update your portfolio.
 
-export const API_URL = (import.meta.env.VITE_API_URL || 'http://localhost:5000').replace(/\/$/, '');
+ // All the text on the site lives here. Edit this file to update your portfolio.
+
+export const API_URL = (
+  import.meta.env.VITE_API_URL || 'http://localhost:5000'
+).replace(/\/$/, '');
 
 export const profile = {
   name: 'Komal',
   roles: ['Backend Developer', 'Full-Stack Developer', 'Blockchain Enthusiast'],
   designation: 'Backend Developer Intern at Saffron Synaptiq',
+
   bio: [
     'I am a student at JK Lakshmipat University and an early-stage developer with hands-on experience across full-stack and blockchain work.',
-    'Right now I am completing my Practice School-I internship at Saffron Synaptiq, where I work on the backend of LinkedCRM, a CRM platform for LinkedIn marketing campaigns.',
+    'I completed my Practice School-I internship at Saffron Synaptiq, where I worked on the backend of LinkedCRM, a CRM platform for LinkedIn marketing campaigns.',
   ],
+
   location: 'India',
   status: 'Student · Intern',
   email: 'komaljangid0909@gmail.com',
-  photo: '"C:/Users/004ko/OneDrive/pictures/WhatsApp Image 2024-11-12 at 21.22.58_f8bc3e5a.jpg"', // put your photo in client/public/profile.jpg
-  github: 'https://github.com/komal-004/Portfolio', // TODO: your GitHub profile
-  linkedin: 'https://www.linkedin.com/in/komal-jangid-74363831a/?isSelfProfile=true', // TODO: your LinkedIn profile
+  photo: '/profile.jpg',
+
+  github: 'https://github.com/komal-004',
+  linkedin: 'https://www.linkedin.com/in/komal-jangid-74363831a/',
 };
 
 export const skills = [
@@ -32,9 +38,10 @@ export const skills = [
     category: 'Backend',
     items: [
       { name: 'Node.js', level: 60 },
-    
+      { name: 'Express.js', level: 60 },
       { name: 'MongoDB', level: 70 },
       { name: 'PostgreSQL', level: 75 },
+      { name: 'MySQL', level: 70 },
     ],
   },
   {
@@ -42,71 +49,70 @@ export const skills = [
     items: [
       { name: 'Git & GitHub', level: 75 },
       { name: 'Docker', level: 60 },
-      
       { name: 'Swagger / OpenAPI', level: 70 },
+      { name: 'JWT Authentication', level: 65 },
     ],
   },
 ];
 
-export const levelLabel = (n) => (n >= 80 ? 'Advanced' : n >= 65 ? 'Intermediate' : 'Learning');
+export const levelLabel = (n) =>
+  n >= 80 ? 'Advanced' : n >= 65 ? 'Intermediate' : 'Learning';
 
-// TODO: add your GitHub repo and live demo links for each project.
 export const projects = [
   {
     name: 'CRM Digital Marketing',
     description:
-      'A full-stack CRM platform for managing LinkedIn marketing campaigns and generating leads. I work on the backend and wrote the Swagger/OpenAPI documentation for its API routes.',
-    tech: ['React', 'Node.js', 'PostgreSQL'],
+      'A CRM platform for managing LinkedIn marketing campaigns and generating leads. Worked on backend functionality using Node.js and Express, JWT authentication, LinkedIn OAuth integration, and Swagger/OpenAPI documentation for API routes.',
+    tech: ['React', 'Node.js', 'Express.js', 'PostgreSQL', 'JWT', 'Swagger'],
     github: '#',
     live: '#',
   },
   {
-    name: 'Smart Public Transport & Ticketing System ',
+    name: 'Smart Public Transport & Ticketing System',
     description:
-      'Implemented backend functionality using JavaScript with MySQL integration for secure data storage, while enhancing passenger convenience, transparency and efficiency in public transport services.',
-    tech: ['React', 'PostgreSQL', 'HTML', 'CSS'],
+      'Implemented backend functionality using JavaScript with MySQL integration for secure data storage, helping improve passenger convenience, transparency, and efficiency in public transport services.',
+    tech: ['JavaScript', 'MySQL', 'React', 'HTML', 'CSS'],
     github: '#',
     live: '#',
   },
   {
     name: 'Face Detection',
     description:
-      'Gained hands-on experience in computer vision and image processing by drawing real-time bounding boxes around detected faces.',
-    tech: ['Python'],
+      'Built a face detection application using Python and computer vision techniques to identify faces and draw real-time bounding boxes around detected faces.',
+    tech: ['Python', 'Computer Vision', 'OpenCV'],
     github: '#',
     live: '#',
   },
   {
     name: 'Stock Price Prediction',
     description:
-      'Developed a Python-based stock price prediction application using Linear Regression on historical data.'
-
+      'Developed a Python-based stock price prediction application using Linear Regression on historical stock data.',
+    tech: ['Python', 'Pandas', 'Scikit-learn', 'Linear Regression'],
+    github: '#',
+    live: '#',
   },
 ];
 
 export const timeline = [
   {
-    period: 'Completed',
+    period: 'Practice School-I',
     title: 'Backend Developer Intern',
     place: 'Saffron Synaptiq',
-    text: 'Practice School-I internship. Backend developer on the LinkedCRM project, working with Node.js, Express and PostgreSQL.',
+    text: 'Worked on the LinkedCRM project, contributing to backend development using Node.js and Express, authentication, LinkedIn OAuth integration, and Swagger/OpenAPI documentation.',
     type: 'work',
   },
   {
     period: 'Ongoing',
     title: 'Undergraduate Student',
     place: 'JK Lakshmipat University',
-    text: 'Studying while building full-stack.',
+    text: 'Pursuing a B.Tech in Computer Science and Engineering while developing skills in backend development, full-stack technologies, and software engineering.',
     type: 'education',
   },
 ];
 
-export const certifications = [
-  { title: 'Certificate 1', platform: 'Coursera', link: '', image: '' },
-];
+export const certifications = [];
 
 export const achievements = [
-  'Backend developer on the LinkedCRM project during my Practice School-I internship at Saffron Synaptiq',
-  'Wrote Swagger/OpenAPI documentation covering all LinkedCRM backend routes',
-  
+  'Contributed to backend development for the LinkedCRM project during my Practice School-I internship at Saffron Synaptiq.',
+  'Created Swagger/OpenAPI documentation for LinkedCRM backend API routes.',
 ];
