@@ -64,7 +64,7 @@ export const projects = [
     description:
       'A CRM platform for managing LinkedIn marketing campaigns and generating leads. Worked on backend functionality using Node.js and Express, JWT authentication, LinkedIn OAuth integration, and Swagger/OpenAPI documentation for API routes.',
     tech: ['React', 'Node.js', 'Express.js', 'PostgreSQL', 'JWT', 'Swagger'],
-    github: '#',
+    github: 'https://github.com/Dhruv-hub-byte/CRM_digital_marketing.git',
     live: '#',
   },
   {
@@ -80,7 +80,7 @@ export const projects = [
     description:
       'Built a face detection application using Python and computer vision techniques to identify faces and draw real-time bounding boxes around detected faces.',
     tech: ['Python', 'Computer Vision', 'OpenCV'],
-    github: '#',
+    github: 'https://github.com/komal-004/Face-Detection-App.git',
     live: '#',
   },
   {
@@ -88,7 +88,7 @@ export const projects = [
     description:
       'Developed a Python-based stock price prediction application using Linear Regression on historical stock data.',
     tech: ['Python', 'Pandas', 'Scikit-learn', 'Linear Regression'],
-    github: '#',
+    github: 'https://github.com/komal-004/stock-price-prediction.git',
     live: '#',
   },
 ];

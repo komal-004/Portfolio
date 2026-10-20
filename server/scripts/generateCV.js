@@ -29,6 +29,10 @@ const cv = {
   education: [{ degree: 'Undergraduate Student', org: 'JK Lakshmipat University' }],
   projects: [
     {
+      name: 'CRM Digital Marketing',
+      desc: 'A full-stack CRM platform for managing LinkedIn marketing campaigns and generating leads. I work on the backend and wrote the Swagger/OpenAPI documentation for its API routes.',
+    },
+    {
       name: 'Smart Public Transport & Ticketing System ',
       desc: 'Implemented backend functionality using JavaScript with MySQL integration for secure data storage, while enhancing passenger convenience, transparency and efficiency in public transport services.',
     },
